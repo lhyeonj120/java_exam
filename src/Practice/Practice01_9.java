@@ -9,7 +9,7 @@ public class Practice01_9 {
 				int n = j + i;
 				if(n > 5)
 					n -= 5;
-				System.out.print(n + " ");
+				System.out.printf("%2d%s", n, " ");
 			}
 			System.out.println();
 		}

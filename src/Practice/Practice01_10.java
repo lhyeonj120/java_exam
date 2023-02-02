@@ -8,13 +8,10 @@ public class Practice01_10 {
 		for(int i = number; i > 0; i--) {
 			for(int j = 1; j <= number; j++) {
 				if(i <= j) {
-					if(++n >= 10)
-						System.out.printf("%3d", n);
-					else
-						System.out.printf("%2d", n);
+					System.out.printf("%3d", ++n);
 				}
 				else
-					System.out.print(" ");
+					System.out.printf("%3s", " ");
 			}
 			System.out.println();
 		}

@@ -7,7 +7,7 @@ public class Practice01_4 {
 		for(int i = 1; i <= number; i++) {
 			for(int j = 1; j <= number; j++) {
 				if(i >= j)
-					System.out.print(j + " ");
+					System.out.printf("%2d%s", j, " ");
 			}
 			System.out.println();
 		}
