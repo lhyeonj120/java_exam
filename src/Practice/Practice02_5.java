@@ -13,10 +13,7 @@ public class Practice02_5 {
 						System.out.print(" ");
 				}
 				else {
-					if(j >= i - 4)
-						System.out.print("*");
-					else
-						System.out.print(" ");
+					
 				}
 			}
 			System.out.println();
